@@ -29,13 +29,12 @@ class EnigmaGUI:
         self.button_decode.pack()
 
         rotors = [
-            'JGDQOXUSCAMIFRVTPNEWKBLZYH',
-            'NTZPSFBOKMWRCJDIVLAEYUXHGQ', 
-            'JVIUBHTCDYAKEQZPOSGXNRMWFL'  
+            'EKMFLGDQVZNTOWYHXUSPAIBRCJ',  
+            'AJDKSIRUXBLHWTMCQGZNPYFVOE',  
+            'BDFHJLCPRTXVZNYEIWGAKMUSQO'   
         ]
-        reflector = 'YRUHQSLDPXNGOKMIEBFZCWVJAT'
-        plugboard = {'A': 'B', 'B': 'A'}  
- 
+        reflector = 'YRUHQSLDPXNGOKMIEBFZCWVJAT'  
+        plugboard = {'A': 'B', 'B': 'A'} 
 
         self.enigma_machine = EnigmaMachine(rotors, reflector, plugboard)
 
