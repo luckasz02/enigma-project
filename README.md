@@ -1,6 +1,6 @@
 # Enigma Machine and Bombe Simulator
 
-![Enigma Machine](https://upload.wikimedia.org/wikipedia/commons/3/3b/Enigma-machine.png)
+![Enigma Machine](https://en.wikipedia.org/wiki/Enigma_machine#/media/File:Enigma_(crittografia)_-_Museo_scienza_e_tecnologia_Milano.jpg)
 
 ## Overview
 
@@ -8,7 +8,7 @@ This project simulates the iconic Enigma Machine and the Bombe, a device used fo
 
 ## Features
 
-- **Enigma Machine Simulation**: Encode and decode messages using configurable rotors and reflector.
+- **Enigma Machine Simulation**: Encode and decode messages using configurable rotors and reflectors.
 - **Bombe Simulation**: Perform a brute-force attack to determine the initial rotor settings for a given encoded message and known plaintext.
 - **Graphical User Interface (GUI)**: Encode and decode messages through a user-friendly interface.
 
@@ -106,7 +106,7 @@ pytest
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE.md](./LICENSE.md) file for details.
+This project is licensed under the MIT License. See the [LICENSE.md](./LICENSE) file for details.
 
 ## Acknowledgments
 
