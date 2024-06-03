@@ -1,8 +1,6 @@
-Sure, here is a rewritten version of your README file:
-
 # Enigma Machine and Bombe Simulator
 
-![Enigma Machine](https://upload.wikimedia.org/wikipedia/commons/3/3b/Enigma-machine.png)
+![Enigma Machine](https://en.wikipedia.org/wiki/Enigma_machine#/media/File:Enigma_(crittografia)_-_Museo_scienza_e_tecnologia_Milano.jpg)
 
 ## Overview
 
@@ -10,7 +8,7 @@ This project simulates the iconic Enigma Machine and the Bombe, a device used fo
 
 ## Features
 
-- **Enigma Machine Simulation**: Encode and decode messages using configurable rotors and reflector.
+- **Enigma Machine Simulation**: Encode and decode messages using configurable rotors and reflectors.
 - **Bombe Simulation**: Perform a brute-force attack to determine the initial rotor settings for a given encoded message and known plaintext.
 
 ## Table of Contents
@@ -29,7 +27,7 @@ This project simulates the iconic Enigma Machine and the Bombe, a device used fo
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/enigma_project.git
+   git clone https://github.com/luckasz02/enigma-project.git
    cd enigma_project
    ```
 
