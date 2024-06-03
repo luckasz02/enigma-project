@@ -11,15 +11,12 @@ class EnigmaMachine:
         if char in self.plugboard:
             char = self.plugboard[char]
         
-        # Pass through the rotors
         for i, rotor in enumerate(self.rotors):
             index = (ord(char) - 65 + self.rotor_positions[i]) % 26
             char = rotor[index]
         
-        # Reflector
         char = self.reflector[ord(char) - 65]
         
-        # Pass back through the rotors in reverse order
         for i, rotor in enumerate(reversed(self.rotors)):
             index = (rotor.index(char) - self.rotor_positions[-1 - i] + 26) % 26
             char = chr(index + 65)
