@@ -28,7 +28,7 @@ This project simulates the iconic Enigma Machine and the Bombe, a device used fo
 
    ```bash
    git clone https://github.com/luckasz02/enigma-project.git
-   cd enigma_project
+   cd Enigma
    ```
 
 2. **Create and activate a virtual environment** (optional but recommended):
