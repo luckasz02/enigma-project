@@ -1,5 +1,3 @@
-Sure, here is a rewritten version of your README file:
-
 # Enigma Machine and Bombe Simulator
 
 ![Enigma Machine](https://upload.wikimedia.org/wikipedia/commons/3/3b/Enigma-machine.png)
@@ -12,12 +10,14 @@ This project simulates the iconic Enigma Machine and the Bombe, a device used fo
 
 - **Enigma Machine Simulation**: Encode and decode messages using configurable rotors and reflector.
 - **Bombe Simulation**: Perform a brute-force attack to determine the initial rotor settings for a given encoded message and known plaintext.
+- **Graphical User Interface (GUI)**: Encode and decode messages through a user-friendly interface.
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
-  - [Running the Enigma Machine](#running-the-enigma-machine)
+  - [Running the Enigma Machine (CLI)](#running-the-enigma-machine-cli)
+  - [Running the Enigma Machine (GUI)](#running-the-enigma-machine-gui)
   - [Changing the Message](#changing-the-message)
   - [Bombe Attack](#bombe-attack)
 - [Testing](#testing)
@@ -29,8 +29,8 @@ This project simulates the iconic Enigma Machine and the Bombe, a device used fo
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/enigma_project.git
-   cd enigma_project
+   git clone https://github.com/luckasz02/enigma-project.git
+   cd Enigma
    ```
 
 2. **Create and activate a virtual environment** (optional but recommended):
@@ -48,7 +48,7 @@ This project simulates the iconic Enigma Machine and the Bombe, a device used fo
 
 ## Usage
 
-### Running the Enigma Machine
+### Running the Enigma Machine (CLI)
 
 To encode or decode a message using the Enigma Machine, run the `main.py` script:
 
@@ -58,9 +58,18 @@ python main.py
 
 By default, it encodes and decodes the message "HELLO" using the initial rotor settings.
 
+### Running the Enigma Machine (GUI)
+
+To use the GUI version, navigate to the `gui` directory and run:
+
+```bash
+cd gui
+python enigma_gui.py
+```
+
 ### Changing the Message
 
-To change the message, edit the `main.py` file:
+To change the message in the CLI version, edit the `main.py` file:
 
 ```python
 message = "YOUR MESSAGE"
